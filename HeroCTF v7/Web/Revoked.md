@@ -24,7 +24,7 @@ But this vulnerability will not be directly useful yet.
 ## 3. Observing the JWT Cookie
 Inspecting the cookies, we can see a **JWT token**:
 
-![photo](https://github.com/t5nix/assets/blob/main/assets/HeroCTF%20v7/jwt.png?raw=true)
+![photo](https://github.com/t5nix/write-up/blob/main/assets/jwt.png?raw=true)
 
 It’s our token, and we notice that `is_admin` is set to `0`.  
 The goal is to change it to `1` to become an administrator:
@@ -63,4 +63,5 @@ Using it, we gain access to the **Admin Panel**:
 ## 6. Flag
 And that’s it, we obtain the flag:  
 `Hero{N0t_th4t_r3v0k3d_ec6dcf0ae6ae239c4d630b2f5ccb51bb}`
+
 
