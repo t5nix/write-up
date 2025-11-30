@@ -29,7 +29,7 @@ Inspecting the cookies, we can see a **JWT token**:
 It’s our token, and we notice that `is_admin` is set to `0`.  
 The goal is to change it to `1` to become an administrator:
 
-![photo](https://github.com/t5nix/write-up/blob/main/assets/jwt.png?raw=true)
+![photo](https://github.com/t5nix/write-up/blob/main/assets/is_admin.png?raw=true)
 
 Don’t forget to add `==` when decoding in Base64.  
 However, the result is **invalid or revoked token**, so we deduce that we need to retrieve an employee token using the SQL injection discovered earlier.
@@ -63,5 +63,6 @@ Using it, we gain access to the **Admin Panel**:
 ## 6. Flag
 And that’s it, we obtain the flag:  
 `Hero{N0t_th4t_r3v0k3d_ec6dcf0ae6ae239c4d630b2f5ccb51bb}`
+
 
 
