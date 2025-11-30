@@ -56,13 +56,14 @@ We simply find an **administrator token**:
 
 Using it, we gain access to the **Admin Panel**:
 
-![photo](https://github.com/t5nix/write-up/blob/main/assets/win.png?raw=true))
+![photo](https://github.com/t5nix/write-up/blob/main/assets/win.png?raw=true)
 
 ---
 
 ## 6. Flag
 And that’s it, we obtain the flag:  
 `Hero{N0t_th4t_r3v0k3d_ec6dcf0ae6ae239c4d630b2f5ccb51bb}`
+
 
 
 
